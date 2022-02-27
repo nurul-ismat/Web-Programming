@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <script>
+    var total=0;
+        function getPrice(price)
+{
+    total+=price+0.05*price
+}
+    </script>
+    </head>
+    <body onload="getPrice(price)">
+
+    <script>
+    //function call and price print
+        getPrice(10);
+        getPrice(12);
+        //print total
+        document.write(total);
+    </script>
+</body>
+</html>

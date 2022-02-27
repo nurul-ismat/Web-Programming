@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>form</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<section class="from_part">
+			<div class="container-fluid">
+				<h1>land of boxes order form</h1>
+				<form class="mt-4">
+					<div class="form-group form-inline">
+				      <label for="name">Name:</label>
+				      <input type="name" class="form-control" placeholder="Walaa Brody" name="name">
+				    </div>
+				    <div class="form-group number form-inline">
+				      <label for="number">Email:</label>
+				      <input type="number" class="form-control" placeholder="w.brody@widget-sales.com" name="number">
+				    </div>
+				    <div class="form-group text form-inline">
+				      <label for="sel2">Address:</label>
+				      <select multiple class="form-control">
+				        <option>162 Main Road</option>
+				        <option>Rondebosch</option>
+				        <option>Cape Town</option>
+				        
+				      </select>
+				    </div>
+				    <div class="form-group pw form-inline">
+				      <label for="pwd">Postcode:</label>
+				      <input type="password" class="form-control" placeholder="7700" name="pswd">
+				    </div> 
+				 </form>
+
+				<table class="table table-bordered mt-5">
+				    <thead>
+				      <tr>
+				        <th>Product</th>
+				        <th>Part Numbar</th>
+				        <th>Quantity</th>
+				        <th>Unit Price</th>
+				        <th>subtotal</th>
+				      </tr>
+				    </thead>
+				    <tbody>
+				      <tr>
+				        <td>Ecoonno Box</td>
+				        <td>LB 100</td>
+				        <td>3</td>
+				        <td>R5</td>
+				        <td>R15</td>
+				      </tr>
+				      <tr>
+				        <td>Standard Box</td>
+				        <td>LB 200</td>
+				        <td>4</td>
+				        <td>R10</td>
+				        <td>R40</td>
+				      </tr>
+				      <tr>
+				        <td>premium Box/TD></td>
+				        <td>LB 300</td>
+				        <td>1</td>
+				        <td>R15</td>
+				        <td>R15</td>
+				      </tr>
+				      <tr>
+				        <td>Deluxe Box/TD</td>
+				        <td>LB 400</td>
+				        <td>0</td>
+				        <td>R20</td>
+				        <td></td>
+				      </tr>
+				      <tr>
+				        <td>Super Deluxe Box/TD</td>
+				        <td>LB 500</td>
+				        <td>1</td>
+				        <td>R30</td>
+				        <td>R30</td>
+				      </tr>
+				      <tr class="right">
+				      	<td colspan="3"></td>
+				      	<td>total</td>
+				        <td>R100</td>
+				      </tr>
+				    </tbody>
+				</table>
+
+			   <h4>Cradit cart details</h4>
+			   <p>Card type</p>
+			   <div class="form-check form-inline">
+			     	<label class="form-check-label">
+			        <input class="form-check-input" type="checkbox" name="remember"> Master Card
+			      	</label>
+			      	<label for="number" class="ml-5">Card number:</label>
+			    	<input type="number" class="form-control en_b" id="number" placeholder="45645" name="number">
+			    </div>
+				<div class="form-check form-inline mt-4">
+			     	<label class="form-check-label">
+			        <input class="form-check-input" type="checkbox" name="remember"> Visa
+			      	</label>
+			      	<label for="number" class="ex">Expiry date:</label>
+			    	<input type="number" class="form-control en_b" id="number" placeholder="03/99" name="number">
+			    </div>
+			    <div class="form-check form-inline mt-2">
+			     	<label class="form-check-label">
+			        <input class="form-check-input" type="checkbox" name="remember"> American Express
+			      	</label>
+			    </div>
+			    <div class="form-check form-inline mt-1">
+			     	<label class="form-check-label">
+			        <input class="form-check-input" type="checkbox" name="remember"> Diners Club
+			      	</label>
+			    </div>
+
+			    <div class="form-group text form-inline mt-5">
+			      <label for="sel2">Delivary Address:</label>
+			      <select multiple class="form-control">
+			        <option>162 Main Road</option>
+			        <option>Rondebosch</option>
+			        <option>Cape Town</option>
+			        
+			      </select>
+			    </div>
+
+			    <div class="form-inline mt-4">
+			      	<button type="submit" class="btn btn-outline-primary">Send Order</button>
+			      	<button type="submit" class="btn btn-outline-primary ml-3">Clear form</button>
+			    </div>
+			</div>
+		</section>
+
+
+
+		<!-- jQuery library -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<!-- Popper JS -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+		<!-- Latest compiled JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+	</body>
+</html>

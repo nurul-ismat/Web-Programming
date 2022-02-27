@@ -1,0 +1,23 @@
+<html>
+<head>
+		<title> Page1</title>
+</head>
+<body>
+
+<h1> List of programming Language </h1>
+
+<ol>
+
+		<li>C
+		<li>C++
+		<li> Java
+		<li>Javascript
+
+</ol>
+
+		<a href="file:///F:/4.THIRD%20SEMESTER/3.WEB%20PROGRAMMING/HTML%20EXERCISE/html%20hyperlink-2.html">click here to go to visite page 2 </a> </br></br>
+
+		<a href="http://www.google.com" target="blank">click here to go to visit Google</a>
+
+</body>
+</html>

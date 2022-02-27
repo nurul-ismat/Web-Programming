@@ -1,0 +1,30 @@
+<html>
+	<head>
+	<title> Create A table </title>
+	</head>
+
+<body>
+	<h1>
+	Result of students
+	</h1>
+	
+	<table border="2" bordercolor="green" height="300" width="100" align="center">
+		<caption>
+		This is a simple table
+		</caption>
+	<tr>
+		<th>ID</th>
+		<th>NAME</th>
+		<th>GPA</th>
+	</tr>
+	
+	<tr align="center">
+		<td> A18CS0000</td>
+		<td> Sitthi NUR</td>
+		<td> 3.56</td>
+	</tr>	
+	
+	</table>
+
+</body>
+</html>

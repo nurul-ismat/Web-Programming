@@ -1,0 +1,41 @@
+<html>
+<head>
+<title>
+Information
+</title>
+</head>
+<body>
+
+<table border="1" align="center" width="45%">
+
+<th bgcolor="pink">NAME</th>	<!--akahne bgcolor dile heading e Name lekha ghor chane hoa jabe -->
+<th bgcolor="pink">ROLL</th>	<!--akahne bgcolor dile heading e roll lekha ghor chane hoa jabe -->
+<th bgcolor="pink">ADDRESS</th>	<!--akahne bgcolor dile heading e address lekha ghor chane hoa jabe -->
+
+<tr bgcolor="yellow">  <!--akahne bgcolor dile color oi row er chane hoa jabe-->
+
+	<td align="center">TASHBIH</td>
+	<td align="center">20200201</td>
+	<td align="center">BARISHAL</td>
+
+</tr>
+
+<tr>
+
+	<td align="center" bgcolor="red">DEV</td> 	<!--jodi ami akta ghor color korte chai tobe oi ghore ase bgcolor likhte hobay-->
+	<td align="center">20200202</td>
+	<td align="center">BARISHAL</td>
+
+</tr>
+
+<tr>
+
+	<td align="center">SIAM</td>
+	<td align="center">20200203</td>
+	<td align="center" bgcolor="green">BARISHAL</td>
+
+</tr>
+
+</table>
+</body>
+</html>

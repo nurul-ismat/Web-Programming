@@ -1,0 +1,15 @@
+<html>
+	<head>
+	<title> Learning CSS</title>
+	</head>
+
+	<body>
+
+	<P style="color:slateblue;font-size:25px">
+	It was July 21, 1969, and Neil Armstrong awoke with a start. It was the day he would become the first human being to ever walk on the moon.
+	<P style="color:dodgerblue;font-size:23px">
+	The journey had begun several days earlier, when on July 16th, the Apollo 11 launched from Earth headed into outer space. On board with Neil Armstrong were Michael Collins and Buzz Aldrin.</p>
+
+
+	</body>
+	</html>

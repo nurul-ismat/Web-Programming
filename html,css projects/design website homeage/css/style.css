@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:inherit;
+}
+header{
+    background-image: url(../team-bg.jpg);
+        height: 80vh;
+    background-size: cover;
+    background-position: center;
+    
+}
+ul{
+    float: right;
+    list-style-type: none;
+    margin: 25px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 5px 20px;
+    border: 0px solid black;
+    transition: 0.7s ease; 
+}
+ul li a:hover{
+    background-color: aqua;
+    color: #000;
+    
+}
+ul li.active a{
+    background-color: white;
+    color: #000;
+}
+
+.logo img{
+    float: left;
+    width: 150px;
+    height: auto;
+}
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.title{
+    position: relative;
+    top:40%;
+    left: 65%;
+    transform: translate(-50%,-50%);
+}
+.title h1{
+    text-align: center;
+    color: black;
+    font-size: 40px;
+}
+.button{
+    text-align: center;
+    position: relative;
+    top:40%;
+    left: 65%;
+    transform: translate(-50%,-50%);
+}
+
+.btn{
+    text-align: center;
+    border: 1px solid #ffff;
+    padding: 10px 30px;
+    color: black;
+    text-decoration: none;
+    transition: 0.6s ease;
+}
+
+.btn:hover{
+    background-color: aqua;
+    
+    color: #000;
+}
+
+
+
+
+

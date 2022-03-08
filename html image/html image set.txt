@@ -1,9 +1,0 @@
-<html>
-<head>
-</head>
-<body>
-
-<img src="download1.jpg" width="500" height="300" title="UTM">
-
-</body>
-</html>
